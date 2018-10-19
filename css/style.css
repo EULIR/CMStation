@@ -23,13 +23,13 @@ h1,h2{
 	line-height:1.1em;
 	color: #fcb017;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+	/*text-transform: lowercase;*/
 }
 h3, h4, h5, h6 {
 	line-height:1.1em;
 	color: #fcb017;
 	margin-bottom: 20px;
-	text-transform: uppercase;
+	/*text-transform: lowercase;*/
 }
 input, button, select, textarea {
     border-radius: 0px !important;
@@ -1423,7 +1423,13 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
+
+li img{
+	 display:none;
+}
+li:hover img{
+	 display:block;
+}
 
 .clear-marginbot{
 	margin-bottom:0;
